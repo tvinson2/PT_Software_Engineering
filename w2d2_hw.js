@@ -19,6 +19,6 @@ const plantee = ["Plantee", "plant",  5000 , "Mordor"]
     console.log(plantee) 
     console.log(plantee[2])
 
-//plantee.splice(2,1,5000 +1)
-  //  console.log (plantee)
+plantee.splice(2,1,5000 +1)
+console.log (plantee)
     

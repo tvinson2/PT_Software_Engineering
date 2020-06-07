@@ -24,6 +24,7 @@ for (let i = 0; i <201; i++){ //<----as long as my number called i, is less than
 // Fizz Buzz
 ////////////////////////////////
 
+/*
 let str1 = "Fizz"   //<---- I declared string variables for easy access and modification later
 let str2  = "Buzz"
 let str3 = "FizzBuzz"
@@ -40,3 +41,52 @@ for(let i = 1; i < 101; i++){ // <----as long as my number called i, is less tha
         console.log(i) //<---- just consol.log whatever numbes are left
     }     
 } 
+*/
+
+////////////////////////////////
+// Wild Wild Life
+////////////////////////////////
+
+
+const plantee = ["Plantee", "plant",  5000 , "Mordor"] //<---- Array declared
+    plantee[2] = 5000 + 1   //<---- one year added to the current year (arrays start with 0)
+    console.log(plantee)    //<---- Show the entire array now
+ // console.log(plantee[2]) //<---- just show what I changed in the array
+ 
+const wolfy = ["Wolfy", "wolf", 16, "Yukon Territory"]
+    wolfy[3] = "Gotham City"
+    console.log(wolfy)    //<---- Show the entire array now
+ // console.log(wolfy[3]) //<---- just show what changed in the array
+
+const dart = ["D'Art" , "Demogorgan Dog", 2, "Upside Down"] //<---- Array declared
+    dart.push ("Hawkins") //<---- allows a value to be "pushed" into the current array at the end
+    console.log (dart) //<---- Show the new array
+
+//  const wolfy = ["Wolfy", "wolf", 16, "Yukon Territory"] //<---- Array declared (delclared earlier)
+    wolfy.splice (0,1,"Gameboy")// <---- (position to remove, quantity to remove, value to insert)
+    console.log (wolfy) //<---- show the new array
+
+////////////////////////////////
+// Yell at the Ninja Turtles
+////////////////////////////////
+
+
+////////////////////////////////
+// Methods, Revisited
+////////////////////////////////
+
+
+////////////////////////////////
+// Where is Waldo
+////////////////////////////////
+
+
+////////////////////////////////
+//  Excited Kitten
+////////////////////////////////
+
+
+////////////////////////////////
+//  Find the Median
+////////////////////////////////
+

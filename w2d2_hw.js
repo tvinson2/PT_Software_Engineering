@@ -70,15 +70,50 @@ const dart = ["D'Art" , "Demogorgan Dog", 2, "Upside Down"] //<---- Array declar
 ////////////////////////////////
 // Yell at the Ninja Turtles
 ////////////////////////////////
-
+/*
 const ninjaTurtles = ["Donatello" , "Leonardo" , "Raphael" , "Michaelangelo"] //<---- Array Declared 
     for (let nickNames of ninjaTurtles){ // <---- for of loop allowing new variable to convert array objects to strings
     console.log (nickNames.toUpperCase()) // <---- showing the string elements in all uppercase
     }
+*/
 
 ////////////////////////////////
 // Methods, Revisited
 ////////////////////////////////
+
+const favMovies = ['Jaws', 'The Fellowship of the Ring', 'Howl\'s Moving Castle', 'Django Unchained', 'Cloud Atlas', 'The Usual Suspects', 'Toy Story', 'Conan the Barbarian', 'Titanic', 'Harry Potter', 'Fried Green Tomatoes', 'Volver', 'Oculus', 'Seven', 'Black Panther', 'Harry Potter', 'Imitation of Life', 'Snatch', 'Fast and Furious'];
+//console.log (favMovies [8]) //<---- displays The Titanic
+
+            /// 1. ///
+//console.log (favMovies.sort()) //<---- displays arrary in alphabetical order
+            /// 2. ///
+//console.log (favMovies.pop()) //<---- removes the last element in array and displays it
+            /// 3. ///
+//favMovies.push("Guardians of the Galaxy") //<---- adds to the end of array
+//console.log (favMovies)
+            /// 4. ///
+//console.log (favMovies.reverse()) //<---- displays arrary in reverse
+            /// 5. ///
+ //favMovies.reverse() //<---- sets up arrary in reverse
+ //favMovies.shift() //<---- removes the first element
+ //console.log (favMovies)// <---- displays new order w/0 first element
+            /// 6. ///
+//favMovies.reverse() //<---- sets up arrary in reverse
+//favMovies.shift() //<---- removes the first element
+//console.log (favMovies)// <---- displays new order w/0 first element
+//favMovies.unshift("Fast and Furious")//<---- puts Fast and Furious back at first element in array and,
+//console.log (favMovies) //<---- redisplays the array with the .shift() changes
+            /// 7. ///
+//let movPosition1 = favMovies.indexOf("Django Unchained") //<---- creates a variable to find Django Unchained in the array without counting 
+//favMovies.splice (movPosition1,1,"Avatar")// <---- (position to remove, quantity to remove, value to insert)
+//console.log (favMovies) //<---- display the changes 
+            /// 8. ///
+let fullArray = favMovies.length //<---- creating a variable for the array's element total without having to count
+            /// 9. ///
+let newFavMovies = favMovies.slice(fullArray / 2) //<---- creates a new variable for the sliced array, and
+                                                  //forces the slice funtion to use the new variable to calculate array halfway
+            /// 10. ///
+console.log(newFavMovies)// <displays the new sliced array
 
 
 ////////////////////////////////

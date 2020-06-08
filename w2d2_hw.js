@@ -47,7 +47,7 @@ for(let i = 1; i < 101; i++){ // <----as long as my number called i, is less tha
 // Wild Wild Life
 ////////////////////////////////
 
-
+/*
 const plantee = ["Plantee", "plant",  5000 , "Mordor"] //<---- Array declared
     plantee[2] = 5000 + 1   //<---- one year added to the current year (arrays start with 0)
     console.log(plantee)    //<---- Show the entire array now
@@ -65,11 +65,16 @@ const dart = ["D'Art" , "Demogorgan Dog", 2, "Upside Down"] //<---- Array declar
 //  const wolfy = ["Wolfy", "wolf", 16, "Yukon Territory"] //<---- Array declared (delclared earlier)
     wolfy.splice (0,1,"Gameboy")// <---- (position to remove, quantity to remove, value to insert)
     console.log (wolfy) //<---- show the new array
+*/
 
 ////////////////////////////////
 // Yell at the Ninja Turtles
 ////////////////////////////////
 
+const ninjaTurtles = ["Donatello" , "Leonardo" , "Raphael" , "Michaelangelo"] //<---- Array Declared 
+    for (let nickNames of ninjaTurtles){ // <---- for of loop allowing new variable to convert array objects to strings
+    console.log (nickNames.toUpperCase()) // <---- showing the string elements in all uppercase
+    }
 
 ////////////////////////////////
 // Methods, Revisited

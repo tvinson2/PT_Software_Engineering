@@ -108,25 +108,44 @@ const favMovies = ['Jaws', 'The Fellowship of the Ring', 'Howl\'s Moving Castle'
 //favMovies.splice (movPosition1,1,"Avatar")// <---- (position to remove, quantity to remove, value to insert)
 //console.log (favMovies) //<---- display the changes 
             /// 8. ///
-let fullArray = favMovies.length //<---- creating a variable for the array's element total without having to count
+//let fullArray = favMovies.length //<---- creating a variable for the array's element total without having to count
             /// 9. ///
-let newFavMovies = favMovies.slice(fullArray / 2) //<---- creates a new variable for the sliced array, and
+//let newFavMovies = favMovies.slice(fullArray / 2) //<---- creates a new variable for the sliced array, and
                                                   //forces the slice funtion to use the new variable to calculate array halfway
             /// 10. ///
-console.log(newFavMovies)// <displays the new sliced array
+//console.log(newFavMovies)// <displays the new sliced array
 
 
 ////////////////////////////////
-// Where is Waldo
+// Where is Waldo - not done yet
+////////////////////////////////
+
+/*
+const whereIsWaldo = [["Timmy", "Frank"], "Eggbert",
+                    ["Lucinda", "Jacc", "Neff", "Snoop"],
+                    ["Petunia", ["Baked Goods", "Waldo"]]];
+whereIsWaldo.splice(1,1,(2,1,"No One"))
+console.log (whereIsWaldo)
+8?
+*/
+////////////////////////////////
+//  Excited Kitten - not done yet
 ////////////////////////////////
 
 
-////////////////////////////////
-//  Excited Kitten
-////////////////////////////////
+            /// 1. ///  
+const kittyTalk = ["Love me","pet me!","HSSSSSS!"] // <---- array delared
+                        // array to print 20 times //
+for(j=0; j<21; j++){ //<----as long as my number called j, is less than 21, go up 1 increment and causing the next loop to run
+    for (i = 0; i < kittyTalk.length; i++){ //<----as long as my number called i, is less than 3, go up 1 increment and , (basically log 1 time)
+        console.log(kittyTalk[i])//<---- console log that number
+    }
+}
+        
 
 
 ////////////////////////////////
-//  Find the Median
+//  Find the Median - not done yet
 ////////////////////////////////
+
 
